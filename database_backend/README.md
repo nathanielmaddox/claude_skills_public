@@ -26,6 +26,15 @@ Skills for database design, backend architecture, and authentication.
 ## Usage Examples
 
 ```
+# supabase-architect
+Skill({ skill: 'supabase-architect', args: 'Design RLS policies for multi-tenant SaaS' })
+
+# convex-architect
 Skill({ skill: 'convex-architect', args: 'Design schema for customer management' })
+Skill({ skill: 'convex-architect', args: 'Design schema for booking system' })
+
+# auth-flow-designer — argument-hint: [auth-provider: supabase|nextauth|clerk|custom]
+Skill({ skill: 'auth-flow-designer', args: 'clerk' })
+Skill({ skill: 'auth-flow-designer', args: 'supabase' })
 Skill({ skill: 'auth-flow-designer', args: 'Add multi-tenant auth to the ERP' })
 ```

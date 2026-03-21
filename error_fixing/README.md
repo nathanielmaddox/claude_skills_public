@@ -33,9 +33,16 @@ Specialized agents for diagnosing and fixing specific types of errors. These act
 ## Usage Examples
 
 ```
+# Error fixers auto-detect errors from context — args are optional
+Skill({ skill: 'api-error-fixer' })
 Skill({ skill: 'build-error-fixer' })
-Skill({ skill: 'typescript-error-fixer' })
+Skill({ skill: 'database-error-fixer' })
+Skill({ skill: 'dependency-error-fixer' })
+Skill({ skill: 'eslint-error-fixer' })
 Skill({ skill: 'hydration-error-fixer' })
+Skill({ skill: 'test-failure-fixer' })
+Skill({ skill: 'typescript-error-fixer' })
+Skill({ skill: 'convex-error-fixer' })
 ```
 
 ## Note

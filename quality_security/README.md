@@ -28,12 +28,32 @@ Skills for testing, security, compliance, and code quality.
 ## Usage Examples
 
 ```
+# test-engineer — argument-hint: [component] [test-type: unit|integration|e2e]
+Skill({ skill: 'test-engineer', args: 'auth unit' })
+Skill({ skill: 'test-engineer', args: 'booking-flow e2e' })
 Skill({ skill: 'test-engineer', args: 'Plan test strategy for the booking module' })
+
+# security-auditor
 Skill({ skill: 'security-auditor', args: 'Audit the auth middleware' })
+
+# api-security-specialist
+Skill({ skill: 'api-security-specialist', args: 'Review webhook signature verification' })
+
+# compliance-officer
+Skill({ skill: 'compliance-officer', args: 'GDPR audit for user data handling' })
+
+# incident-response-specialist
+Skill({ skill: 'incident-response-specialist', args: 'API keys exposed in git history' })
+
+# code-reviewer
 Skill({ skill: 'code-reviewer', args: 'Review the pricing resolver changes' })
+
+# qa-enforcer — argument-hint: [module-or-path] [--crud-only|--schema-only|--workflow-only]
 Skill({ skill: 'qa-enforcer', args: 'auth' })
+Skill({ skill: 'qa-enforcer', args: 'billing --crud-only' })
+Skill({ skill: 'qa-enforcer', args: 'projects --workflow-only' })
 /qa-enforcer billing
 /qa-enforcer C:/Users/nmadd/desktop/vs_code/cojo
 /qa-enforcer auth --env-only
-/qa-enforcer-all  # now includes env var audit in every module sweep
+/qa-enforcer-all  # full sweep across all modules
 ```

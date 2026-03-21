@@ -29,8 +29,29 @@ Skills for UI/UX design, accessibility, and visual design patterns.
 ## Usage Examples
 
 ```
+# ui-ux-designer — argument-hint: [component-name]
+Skill({ skill: 'ui-ux-designer', args: 'CustomerDetailPage' })
 Skill({ skill: 'ui-ux-designer', args: 'Review the customer detail page' })
+
+# copywriter — argument-hint: [content-type] [tone]
+Skill({ skill: 'copywriter', args: 'error-messages professional' })
+Skill({ skill: 'copywriter', args: 'onboarding-flow friendly' })
+
+# react-flow-designer
+Skill({ skill: 'react-flow-designer', args: 'Build a workflow automation editor' })
+
+# accessibility-auditor
 Skill({ skill: 'accessibility-auditor', args: 'Audit the booking form' })
+
+# landing-page-designer
+Skill({ skill: 'landing-page-designer', args: 'Design hero section for SaaS landing page' })
+
+# dashboard-designer
 Skill({ skill: 'dashboard-designer', args: 'Design the analytics dashboard layout' })
+
+# mobile-ui-designer
+Skill({ skill: 'mobile-ui-designer', args: 'Design bottom sheet navigation for mobile app' })
+
+# booking-flow-designer
 Skill({ skill: 'booking-flow-designer', args: 'Design the service booking checkout' })
 ```

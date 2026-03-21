@@ -30,7 +30,36 @@ Skills for system design, API design, and engineering best practices.
 ## Usage Examples
 
 ```
+# system-architect
 Skill({ skill: 'system-architect', args: 'Design the notification delivery system' })
-Skill({ skill: 'nextjs-specialist', args: 'Should this be a Server or Client component?' })
+
+# api-designer
+Skill({ skill: 'api-designer', args: 'Design REST API for customer management' })
+
+# mobile-architect
+Skill({ skill: 'mobile-architect', args: 'Evaluate React Native vs Flutter for field service app' })
+
+# devops-engineer
+Skill({ skill: 'devops-engineer', args: 'Set up monitoring and alerting for production' })
+
+# performance-engineer
 Skill({ skill: 'performance-engineer', args: 'The dashboard loads in 8 seconds' })
+
+# cloud-architect
+Skill({ skill: 'cloud-architect', args: 'Multi-region failover strategy for AWS' })
+
+# enterprise-integration-architect
+Skill({ skill: 'enterprise-integration-architect', args: 'Connect Salesforce CRM to our booking system' })
+
+# nextjs-specialist
+Skill({ skill: 'nextjs-specialist', args: 'Should this be a Server or Client component?' })
+
+# typescript-specialist
+Skill({ skill: 'typescript-specialist', args: 'Fix complex generic inference in useForm hook' })
+
+# monorepo-manager
+Skill({ skill: 'monorepo-manager', args: 'Optimize Turborepo build pipeline for shared packages' })
+
+# error-handler-architect
+Skill({ skill: 'error-handler-architect', args: 'Design error boundary strategy for the dashboard' })
 ```

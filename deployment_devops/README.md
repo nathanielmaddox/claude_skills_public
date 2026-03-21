@@ -30,6 +30,20 @@ Skills for deployment, CI/CD, caching, disaster recovery, and release management
 ## Usage Examples
 
 ```
+# vercel-deployment
 Skill({ skill: 'vercel-deployment', args: 'Deploy otesse_erp to production' })
+
+# github-actions-builder — argument-hint: [workflow-type: ci|cd|release|test]
+Skill({ skill: 'github-actions-builder', args: 'ci' })
+Skill({ skill: 'github-actions-builder', args: 'release' })
 Skill({ skill: 'github-actions-builder', args: 'Set up CI for the monorepo' })
+
+# caching-strategist
+Skill({ skill: 'caching-strategist', args: 'Redis caching strategy for API responses' })
+
+# disaster-recovery-planner
+Skill({ skill: 'disaster-recovery-planner', args: 'Design DR plan for multi-region SaaS' })
+
+# release-manager
+Skill({ skill: 'release-manager', args: 'Set up feature flags for staged rollout' })
 ```
