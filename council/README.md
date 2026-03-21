@@ -37,15 +37,23 @@ Skill({ skill: 'council-critic', args: 'Audit the pricing page UX' })
 Skill({ skill: 'council-user-voice', args: 'Test the onboarding flow as a new user' })
 ```
 
-## Critical Rules (Learned from Failures)
+## Safeguards (Self-Corrected After Portal Review)
 
-1. **NO ASSUMPTIONS** — Council members research independently. The arbiter provides the QUESTION and FILE PATHS, never pre-digested conclusions.
-2. **ECOSYSTEM-WIDE RESEARCH** — For Otesse, every member must read ALL related projects (otesse-app, otesse_erp, otesse_portal, er_documentation). Evaluating one project without understanding the others produces garbage.
-3. **READ CLAUDE.md FIRST** — Every project has a CLAUDE.md that defines its scope and boundaries. Read it before forming any opinion. Don't critique a project for missing features that belong to another project.
-4. **DEBATE, DON'T RUBBER-STAMP** — The arbiter presents the council's debate to the user. The arbiter does NOT present its own opinion disguised as a verdict.
+The council's Portal Multi-View review (2026-03-18) produced a flawed verdict because the arbiter pre-digested conclusions instead of letting members research. The council self-corrected, adding 3 safeguards that prevent the same mistakes:
+
+1. **Independent Research** — The arbiter provides questions and file paths, never conclusions. Each council member forms its own opinion from primary sources.
+2. **Ecosystem-Wide Scope** — All related projects must be researched (not just the one under review). For Otesse, every member reads otesse-app, otesse_erp, otesse_portal, and er_documentation before forming any opinion.
+3. **Debate Over Decree** — The arbiter presents the council's debate to the user, not its own plan. Read each project's CLAUDE.md first to understand scope boundaries.
+
+## How the Council Self-Improves
+
+- Each council member has a `pitfalls.md` that captures mistakes from past reviews.
+- The arbiter reads all pitfalls BEFORE every invocation, so known failure modes are actively avoided.
+- Failed verdicts become prevention checklists — the worse the failure, the stronger the safeguard.
 
 ## Otesse Council History
-- Portal Multi-View: INVALID (2026-03-18) — arbiter fed assumptions, council didn't research independently. Pitfalls logged across all 5 skills.
+
+- Portal Multi-View (2026-03-18) — Triggered the 3 safeguards above. Pitfalls logged across all 5 skills. Re-reviewed successfully as v2.
 - Booking Rules: Grade C+, 3-phase plan (see `booking-rules-council-verdict.md`)
 - Industry Types: Dynamic feature verdict (see `industry-types-dynamic.md`)
 - Pricing UX: Grade D+ (see `pricing-ux-audit.md`)
