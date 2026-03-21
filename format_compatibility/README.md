@@ -21,6 +21,8 @@ Skills for media format and codec compatibility across platforms.
 ## Usage Examples
 
 ```
-Skill({ skill: 'image-format-fixer', args: 'Should we use WebP or AVIF for the product images?' })
+Skill({ skill: 'audio-format-fixer', args: 'MP3 audio not playing on iOS Safari' })
 Skill({ skill: 'font-format-fixer', args: 'Custom font not rendering on Safari' })
+Skill({ skill: 'image-format-fixer', args: 'Should we use WebP or AVIF for the product images?' })
+Skill({ skill: 'video-format-fixer', args: 'HEVC video won\'t play in Firefox or Chrome' })
 ```

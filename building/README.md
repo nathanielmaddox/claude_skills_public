@@ -24,5 +24,7 @@ Skills for building forms and UI components with project-specific patterns.
 
 ```
 Skill({ skill: 'form-builder', args: 'Build customer edit form with address fields' })
+Skill({ skill: 'form-builder', args: 'Build a multi-step onboarding wizard' })
 Skill({ skill: 'ui-component-builder', args: 'Build a StatusBadge component' })
+Skill({ skill: 'ui-component-builder', args: 'Build a DataCard component with loading and empty states' })
 ```

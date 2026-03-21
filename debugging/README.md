@@ -19,6 +19,8 @@ Systematic debugging for complex, hard-to-trace bugs.
 
 ```
 Skill({ skill: 'bug-debugger', args: 'Drawer opens but shows stale data after switching tabs' })
+Skill({ skill: 'bug-debugger', args: 'Form submits twice on slow network connections' })
+Skill({ skill: 'bug-debugger', args: 'Kanban drag-drop loses card position intermittently' })
 ```
 
 ## Debugging vs Error Fixing

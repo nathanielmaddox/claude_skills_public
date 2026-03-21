@@ -23,4 +23,6 @@ Skills for technical writing and documentation standards.
 
 ```
 Skill({ skill: 'technical-writer', args: 'Write API documentation for the booking endpoints' })
+Skill({ skill: 'technical-writer', args: 'Create an architecture decision record for choosing Convex' })
+Skill({ skill: 'technical-writer', args: 'Write an onboarding runbook for new developers' })
 ```

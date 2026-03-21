@@ -19,6 +19,7 @@ Skills for feature planning, product strategy, and project kickoff.
 ## Usage Examples
 
 ```
+Skill({ skill: 'product-manager', args: 'customer-portal-invoices' })
 Skill({ skill: 'product-manager', args: 'Break down the booking flow feature' })
 Skill({ skill: 'project-inception' })
 Skill({ skill: 'ai-product-strategist', args: 'Add AI-powered search to the ERP' })

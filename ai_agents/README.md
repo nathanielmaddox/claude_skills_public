@@ -21,7 +21,8 @@ Skills for building AI-powered features, agents, and managing LLMs in production
 ## Usage Examples
 
 ```
-Skill({ skill: 'ai-agent-builder', args: 'Design a customer support agent' })
-Skill({ skill: 'llm-ops', args: 'Set up prompt versioning and cost tracking' })
-Skill({ skill: 'claude-api', args: 'Integrate Claude into the ERP for AI search' })
+Skill({ skill: 'ai-agent-builder', args: 'Design a customer support agent with tool use and memory' })
+Skill({ skill: 'llm-ops', args: 'Set up prompt versioning and cost tracking for production' })
+Skill({ skill: 'prompt-engineer', args: 'Create a SKILL.md for a code-review agent' })
+Skill({ skill: 'claude-api', args: 'Integrate Claude into the ERP for AI-powered search' })
 ```

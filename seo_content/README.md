@@ -35,6 +35,7 @@ For a comprehensive audit that passes all three tools (Semrush + GSC + Ahrefs), 
 ## Usage Examples
 
 ```
-Skill({ skill: 'seo-technical-specialist', args: 'Full cross-tool audit of otesse-app' })
 Skill({ skill: 'seo-content-strategist', args: 'Fix thin content on template-generated pages' })
+Skill({ skill: 'seo-link-builder', args: 'Plan a backlink campaign for otesse.com launch' })
+Skill({ skill: 'seo-technical-specialist', args: 'Full cross-tool audit of otesse-app' })
 ```

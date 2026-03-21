@@ -23,7 +23,9 @@ Skills for growth strategy, sales, customer success, and financial analysis.
 ## Usage Examples
 
 ```
+Skill({ skill: 'growth-marketer', args: 'Design a PLG growth loop for the ERP product' })
 Skill({ skill: 'conversion-rate-optimizer', args: 'Optimize the signup-to-paid funnel' })
 Skill({ skill: 'sales-expert', args: 'Create pricing tiers for the ERP product' })
+Skill({ skill: 'customer-success-expert', args: 'Design onboarding playbook to reduce 30-day churn' })
 Skill({ skill: 'financial-analyst', args: 'TCO analysis: Convex vs Supabase' })
 ```

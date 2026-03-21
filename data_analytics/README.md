@@ -20,8 +20,11 @@ Skills for data modeling, analytics implementation, and observability.
 
 ```
 Skill({ skill: 'analytics-engineer', args: 'Design event tracking for the booking flow' })
+Skill({ skill: 'analytics-engineer', args: 'Set up funnel analysis for signup-to-activation' })
 Skill({ skill: 'data-strategist', args: 'Model the pricing data for analytics queries' })
+Skill({ skill: 'data-strategist', args: 'Design a star schema for the invoicing domain' })
 Skill({ skill: 'observability-architect', args: 'Set up alerting for API latency' })
+Skill({ skill: 'observability-architect', args: 'Define SLOs for the booking service' })
 ```
 
 ## Otesse Context

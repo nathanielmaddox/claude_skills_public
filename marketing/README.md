@@ -19,4 +19,6 @@ Skills for email marketing and automation.
 
 ```
 Skill({ skill: 'email-marketing-strategist', args: 'Design onboarding email sequence for new ERP users' })
+Skill({ skill: 'email-marketing-strategist', args: 'Fix SPF/DKIM/DMARC for otesse.com deliverability' })
+Skill({ skill: 'email-marketing-strategist', args: 'Build a win-back drip sequence for churned users' })
 ```

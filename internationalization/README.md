@@ -19,4 +19,6 @@ Skills for multi-language support and locale management.
 
 ```
 Skill({ skill: 'i18n-specialist', args: 'Add multi-language support to the ERP' })
+Skill({ skill: 'i18n-specialist', args: 'Fix RTL layout issues for Arabic locale' })
+Skill({ skill: 'i18n-specialist', args: 'Set up date/currency formatting for EU locales' })
 ```

@@ -31,10 +31,12 @@ Meta-skills for Claude Code configuration, workflow automation, and session mana
 ```
 Skill({ skill: 'simplify' })
 Skill({ skill: 'loop', args: '5m check deploy status' })
+Skill({ skill: 'frontend-monitor' })
 Skill({ skill: 'save-progress' })
 Skill({ skill: 'deploy' })
 Skill({ skill: 'team', args: 'Build the customer management module' })
 Skill({ skill: 'update-config', args: 'Add a hook to run lint on save' })
+Skill({ skill: 'keybindings-help', args: 'Rebind ctrl+s to save and format' })
 ```
 
 ## Notes
