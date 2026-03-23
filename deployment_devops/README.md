@@ -6,8 +6,8 @@ Skills for deployment, CI/CD, caching, disaster recovery, and release management
 
 | Skill | Command | Description |
 |-------|---------|-------------|
-| **Deploy** | `/deploy` | Slash command: preflight → commit → push → `npx vercel --prod` |
-| **Preflight** | `/preflight` | Lint + type-check + build — mandatory gate before every deploy |
+| **Deploy** | `/deploy` | Slash command: commit → push → `npx vercel --prod --scope hello-9162s-projects` |
+| **Preflight** | `/preflight` | Standalone lint + type-check + build validation (does NOT deploy) |
 | Vercel Deployment | `vercel-deployment` | Next.js config, Edge/Serverless, caching, performance, troubleshooting |
 | GitHub Actions Builder | `github-actions-builder` | CI/CD pipelines, test automation, matrix builds, caching, workflows |
 | Caching Strategist | `caching-strategist` | Redis, CDN, ISR/SSG/SSR, browser caching, service workers, invalidation |
@@ -16,19 +16,19 @@ Skills for deployment, CI/CD, caching, disaster recovery, and release management
 
 ## When to Use
 
-- **`/deploy`** — Full deploy pipeline. Runs `/preflight` automatically first, then commit → push → Vercel
-- **`/preflight`** — Pre-deploy validation only (lint, types, build). Use standalone to check readiness without deploying
+- **`/deploy`** — Full deploy pipeline: commit → push → Vercel CLI deploy. Does NOT run preflight automatically — run `/preflight` separately if needed
+- **`/preflight`** — Standalone pre-deploy validation (lint, types, build). Does NOT deploy
 - **vercel-deployment** — Vercel deploy issues, Edge vs Serverless decisions, caching config
 - **github-actions-builder** — Setting up CI/CD, optimizing build times, test automation
 - **caching-strategist** — Caching strategy decisions, Redis setup, CDN configuration
 - **disaster-recovery-planner** — DR planning, backup strategies, failover design
 - **release-manager** — Release process, feature flags, staged rollouts
 
-## Otesse Deploy Context
+## Deploy Context
 
-- **Vercel account:** hello@otesse.com
-- **Git email must match:** `git config user.email "hello@otesse.com"`
-- **Always explicit:** `npx vercel --prod` (no auto-deploy assumed)
+- **Vercel scope:** `--scope hello-9162s-projects` (ALWAYS required — without it deploys get BLOCKED)
+- **Git author:** `cocoking` / `hello@otesse.com` (wrong author = blocked deploy)
+- **Multiple projects:** Deploy sequentially, not in parallel (Hobby plan blocks concurrent builds)
 - **DS fallback:** Use prebuilt deploy when remote build fails (see `feedback_ds_deploy_prebuilt`)
 
 ## Usage Examples

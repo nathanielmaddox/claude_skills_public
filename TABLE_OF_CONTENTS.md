@@ -1,6 +1,6 @@
 # Claude Skills — Table of Contents
 
-**Total Skills:** 90
+**Total Skills:** 91
 **Categories:** 19
 **Location:** `C:\Users\nmadd\desktop\vs_code\claude_skills`
 
@@ -27,14 +27,14 @@ Skill({ skill: 'skill-name', args: 'optional context' })
 | 9 | [Business & Growth](business_growth/README.md) | `business_growth/` | 5 | Growth, CRO, sales, customer success, finance |
 | 10 | [SEO & Content](seo_content/README.md) | `seo_content/` | 3 | Content strategy, link building, technical SEO |
 | 11 | [Marketing](marketing/README.md) | `marketing/` | 1 | Email campaigns, automation, deliverability |
-| 12 | [Deployment & DevOps](deployment_devops/README.md) | `deployment_devops/` | 5 | Vercel, GitHub Actions, caching, DR, releases |
+| 12 | [Deployment & DevOps](deployment_devops/README.md) | `deployment_devops/` | 7 | Deploy, preflight, Vercel, GitHub Actions, caching, DR, releases |
 | 13 | [Database & Backend](database_backend/README.md) | `database_backend/` | 3 | Supabase, Convex architecture, auth flows |
 | 14 | [Internationalization](internationalization/README.md) | `internationalization/` | 1 | RTL, CLDR, locale management |
 | 15 | [Documentation](documentation/README.md) | `documentation/` | 1 | Technical writing, SOPs, docs-as-code |
 | 16 | [Format Compatibility](format_compatibility/README.md) | `format_compatibility/` | 4 | Audio, font, image, video format issues |
 | 17 | [Building](building/README.md) | `building/` | 2 | Form builder, UI component builder |
 | 18 | [Council](council/README.md) | `council/` | 5 | Multi-perspective review system |
-| 19 | [Workflow & Utilities](workflow_utilities/README.md) | `workflow_utilities/` | 13 | Deploy, simplify, loop, save progress, team, autonomous-cycle, config |
+| 19 | [Workflow & Utilities](workflow_utilities/README.md) | `workflow_utilities/` | 14 | Deploy, preflight, simplify, loop, save progress, team, autonomous-cycle, config |
 
 ## Skill Activation Cheat Sheet
 
