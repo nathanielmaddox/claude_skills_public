@@ -14,6 +14,7 @@ Meta-skills for Claude Code configuration, workflow automation, and session mana
 | Team | `team` | Execute a task using an agent team with coordinated agents |
 | Update Config | `update-config` | Configure Claude Code settings, hooks, permissions, env vars |
 | Keybindings Help | `keybindings-help` | Customize keyboard shortcuts, rebind keys, chord bindings |
+| Autonomous Cycle | `autonomous-cycle` | Research → council → parallel agents → fix → commit → verify → memory → repeat |
 
 ## When to Use
 
@@ -25,6 +26,7 @@ Meta-skills for Claude Code configuration, workflow automation, and session mana
 - **team** — Complex tasks that benefit from multiple coordinated agents working together
 - **update-config** — Setting up hooks ("when X happens, do Y"), adding permissions, env vars
 - **keybindings-help** — Rebinding keys, adding chord shortcuts, customizing submit key
+- **autonomous-cycle** — Large multi-phase tasks: deep research, council review, parallel execution, incremental commits, continuous cycles
 
 ## Usage Examples
 
@@ -37,6 +39,7 @@ Skill({ skill: 'deploy' })
 Skill({ skill: 'team', args: 'Build the customer management module' })
 Skill({ skill: 'update-config', args: 'Add a hook to run lint on save' })
 Skill({ skill: 'keybindings-help', args: 'Rebind ctrl+s to save and format' })
+Skill({ skill: 'autonomous-cycle', args: 'Audit and fix all CRUD across the project' })
 ```
 
 ## Notes
@@ -44,3 +47,4 @@ Skill({ skill: 'keybindings-help', args: 'Rebind ctrl+s to save and format' })
 - **deploy** uses Vercel account `hello@otesse.com` — git email must match
 - **team** is preferred over parallel background agents (per `feedback_use_agent_teams`)
 - **save-progress** should be used proactively at 60%+ context usage
+- **autonomous-cycle** is project-agnostic — works on any codebase, not just Otesse

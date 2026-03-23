@@ -1,6 +1,6 @@
 # Claude Skills — Table of Contents
 
-**Total Skills:** 89
+**Total Skills:** 90
 **Categories:** 19
 **Location:** `C:\Users\nmadd\desktop\vs_code\claude_skills`
 
@@ -34,7 +34,7 @@ Skill({ skill: 'skill-name', args: 'optional context' })
 | 16 | [Format Compatibility](format_compatibility/README.md) | `format_compatibility/` | 4 | Audio, font, image, video format issues |
 | 17 | [Building](building/README.md) | `building/` | 2 | Form builder, UI component builder |
 | 18 | [Council](council/README.md) | `council/` | 5 | Multi-perspective review system |
-| 19 | [Workflow & Utilities](workflow_utilities/README.md) | `workflow_utilities/` | 12 | Deploy, simplify, loop, save progress, team, preflight, refactor, config |
+| 19 | [Workflow & Utilities](workflow_utilities/README.md) | `workflow_utilities/` | 13 | Deploy, simplify, loop, save progress, team, autonomous-cycle, config |
 
 ## Skill Activation Cheat Sheet
 

@@ -6,6 +6,8 @@ Skills for deployment, CI/CD, caching, disaster recovery, and release management
 
 | Skill | Command | Description |
 |-------|---------|-------------|
+| **Deploy** | `/deploy` | Slash command: preflight → commit → push → `npx vercel --prod` |
+| **Preflight** | `/preflight` | Lint + type-check + build — mandatory gate before every deploy |
 | Vercel Deployment | `vercel-deployment` | Next.js config, Edge/Serverless, caching, performance, troubleshooting |
 | GitHub Actions Builder | `github-actions-builder` | CI/CD pipelines, test automation, matrix builds, caching, workflows |
 | Caching Strategist | `caching-strategist` | Redis, CDN, ISR/SSG/SSR, browser caching, service workers, invalidation |
@@ -14,6 +16,8 @@ Skills for deployment, CI/CD, caching, disaster recovery, and release management
 
 ## When to Use
 
+- **`/deploy`** — Full deploy pipeline. Runs `/preflight` automatically first, then commit → push → Vercel
+- **`/preflight`** — Pre-deploy validation only (lint, types, build). Use standalone to check readiness without deploying
 - **vercel-deployment** — Vercel deploy issues, Edge vs Serverless decisions, caching config
 - **github-actions-builder** — Setting up CI/CD, optimizing build times, test automation
 - **caching-strategist** — Caching strategy decisions, Redis setup, CDN configuration

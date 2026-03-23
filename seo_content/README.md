@@ -14,7 +14,7 @@ Skills for search engine optimization and content strategy. Designed to pass Sem
 
 - **seo-content-strategist** -- Content planning, keyword strategy, on-page SEO, thin content fixes, template page differentiation
 - **seo-link-builder** -- Link building campaigns, digital PR, backlink strategy
-- **seo-technical-specialist** -- Site speed, crawl errors, schema markup, indexing issues, canonical/sitemap, OG/Twitter, heading hierarchy
+- **seo-technical-specialist** -- Site speed, crawl errors, schema markup, indexing issues, canonical/sitemap integrity (including cascading canonical detection), OG/Twitter, heading hierarchy
 
 ## Cross-Tool Full Audit (Recommended)
 
@@ -22,7 +22,7 @@ For a comprehensive audit that passes all three tools (Semrush + GSC + Ahrefs), 
 
 **Wave 1 (5 parallel agents):** Meta titles/descriptions, structured data/schema, heading hierarchy/alt text, canonical/sitemap, OG/Twitter cards
 
-**Wave 2 (5 parallel agents):** Thin/duplicate content, technical flags (404 page, trailing slashes, viewport, lang, rel attrs), schema strict validation, internal linking/orphan pages, Core Web Vitals hints
+**Wave 2 (5 parallel agents):** Thin/duplicate content, technical flags (404 page, trailing slashes, viewport, lang, rel attrs), schema strict validation, internal linking/orphan pages, Core Web Vitals hints, canonical–sitemap cross-validation (every sitemap URL must have self-referencing canonical, no parent layout cascading)
 
 ## Key Flags by Tool
 
