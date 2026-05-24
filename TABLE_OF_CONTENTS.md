@@ -99,6 +99,43 @@ New Task Received
   Do it directly
 ```
 
+## Agents (Task Executors)
+
+**Location:** `agents/`
+**Total:** 29 specialized agents
+
+| # | Agent | File | Purpose |
+|---|-------|------|---------|
+| 1 | Accessibility Auditor | `accessibility-auditor.md` | WCAG compliance checks |
+| 2 | API Endpoint Builder | `api-endpoint-builder.md` | Build API routes |
+| 3 | Bug Debugger | `bug-debugger.md` | Systematic debugging |
+| 4 | Code Reviewer | `code-reviewer.md` | Code quality review |
+| 5 | Database Schema Designer | `database-schema-designer.md` | Schema design |
+| 6 | Documentation Writer | `documentation-writer.md` | Write docs |
+| 7 | Form Builder | `form-builder.md` | Build forms |
+| 8 | Git Workflow Manager | `git-workflow-manager.md` | Git operations |
+| 9 | Master Orchestrator | `master-orchestrator.md` | Multi-agent coordination |
+| 10 | Migration Specialist | `migration-specialist.md` | Data/schema migrations |
+| 11 | Performance Optimizer | `performance-optimizer.md` | Performance tuning |
+| 12 | QA Coverage Analyzer | `qa-coverage-analyzer.md` | Test coverage analysis |
+| 13 | QA Feature Validator | `qa-feature-validator.md` | Feature validation |
+| 14 | ReactFlow Specialist | `reactflow-specialist.md` | Node-based UIs |
+| 15 | Refactoring Specialist | `refactoring-specialist.md` | Code refactoring |
+| 16 | SEO Specialist | `seo-specialist.md` | SEO optimization |
+| 17 | State Management Expert | `state-management-expert.md` | State architecture |
+| 18 | Styling Expert | `styling-expert.md` | CSS/Tailwind styling |
+| 19 | Supabase Auth Integrator | `supabase-auth-integrator.md` | Supabase auth setup |
+| 20 | Supabase Migration Manager | `supabase-migration-manager.md` | Supabase migrations |
+| 21 | Supabase Realtime Builder | `supabase-realtime-builder.md` | Realtime subscriptions |
+| 22 | Supabase RLS Designer | `supabase-rls-designer.md` | Row-level security |
+| 23 | Test Data Generator | `test-data-generator.md` | Generate test fixtures |
+| 24 | Test E2E Writer | `test-e2e-writer.md` | End-to-end tests |
+| 25 | Test Integration Writer | `test-integration-writer.md` | Integration tests |
+| 26 | Test Unit Writer | `test-unit-writer.md` | Unit tests |
+| 27 | Type Generator | `type-generator.md` | TypeScript types |
+| 28 | UI Component Builder | `ui-component-builder.md` | Build UI components |
+| 29 | Vercel Specialist | `vercel-specialist.md` | Vercel deployment |
+
 ## Slash Commands
 
 | Command | Description |
